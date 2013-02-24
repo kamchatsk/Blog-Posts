@@ -1,0 +1,19 @@
+﻿<#+
+public class Settings{
+
+public const string ModelPath =  @"UserModel.edmx";
+
+// Base Model Context Interface Name: Leave empty to use "IContext"
+public const string BaseContextInterfaceName = "";
+
+// Model Context Name: Leave empty to use "[Entity Container Name]"
+public const string ModelContextName = "UserContext";
+
+// Base Model Context Interface Name: Leave empty to use "I[ModelContextName]"
+public const string BaseModelContextInterfaceName = "";
+
+// Fake Model Context Name: Leave empty to use "Fake[Entity Container Name]"
+public const string FakeModelContextName = "";
+
+}
+#>
